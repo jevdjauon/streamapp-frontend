@@ -16,6 +16,7 @@ const Container = styled.div`
 const Navbar = () => {
   return (
     <Container>
+      <Link to="/">Home</Link>
       <Link to="/heroes">All Heroes</Link>
       <Link to="/create">Create Hero</Link>
       <Link to="/user">Create User</Link>
